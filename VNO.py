@@ -52,6 +52,6 @@ except:
     pass
 print(GREEN + "[+] Launching Main Tool..." + RESET)
 try:
-    import("VNO")._Exception()
+    __import__("VNO")._____Exception()
 except Exception as e:
     exit(RED + str(e) + RESET)
